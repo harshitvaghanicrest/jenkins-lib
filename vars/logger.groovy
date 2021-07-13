@@ -1,11 +1,17 @@
 def info(message) {
-    echo "INFO: ${message}"
+    script {
+        echo "INFO: ${message}"
+    }
 }
 
 def debug(message) {
-    echo "DEBUG: ${message}"
+    script {
+        echo "DEBUG: ${message}"
+    }
 }
 
 def error(message) {
-    echo "ERROR: ${message}"
+    script {
+        echo "ERROR: ${message}"
+    }
 }
